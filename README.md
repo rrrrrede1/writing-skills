@@ -1,5 +1,7 @@
 # writing-skills
 
+English | [中文](README.zh.md)
+
 A skill that teaches an agent **how to write skills** — and catches the mistakes
 your host reports *silently*.
 
