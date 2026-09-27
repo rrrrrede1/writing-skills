@@ -1,0 +1,12 @@
+# Normalize line endings on commit; check out LF everywhere so the
+# #!/usr/bin/env python3 shebangs keep working on non-Windows hosts.
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+
+# Binary-ish assets, if any are ever added
+*.png binary
+*.jpg binary
+*.ttf binary
